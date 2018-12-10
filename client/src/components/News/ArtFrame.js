@@ -5,6 +5,7 @@ import NewsImg from '../../assets/news.jpeg';
 import Cover from '../UI/Cover';
 import BtnSaved from '../UI/BtnSaved';
 import Emoji from '../UI/Emoji';
+import Likebtn from '../UI/Likebtn'
 
 const Card = styled.div`
   display: grid;
@@ -60,6 +61,7 @@ const ArtFrame = props => {
       <BtnSaved onClick={() => savedItem(item)} connected={connected}>
         <Emoji children="💾" />
       </BtnSaved>
+      <Likebtn></Likebtn>
     </Card>
   );
 };

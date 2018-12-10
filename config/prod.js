@@ -1,11 +1,9 @@
 // prod.js - production keys here!!
 module.exports = {
-  googleClientID: process.env.GOOGLE_CLIENT_ID,
-  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
-  mongoURI: process.env.MONGO_URI,
-  cookieKey: process.env.COOKIE_KEY,
-  stripePublishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
-  stripeSecretKey: process.env.STRIPE_SECRET_KEY,
-  sendGridKey: process.env.SEND_GRID_KEY,
-  redirectDomain: process.env.REDIRECT_DOMAIN
+  googleClientID: "875253937718-q166bnips1b1j3t3bskioas3loq69247.apps.googleusercontent.com",
+  googleClientSecret: "googleClientSecret",
+  mongoURI: 'mongodb://joshuaaguilar20:J0shua11@ds113122.mlab.com:13122/email-dev',
+  cookieKey: 'ireallylovecookiesandebbyandsnugs',
+  stripePublicKey: "pk_test_nNrAdQIeNUfjQpHKtYzalw8A",
+  stripeSecretKey: 'sk_test_Ss9ahj3Yv9WPq1uQ8yt9oIcU'
 };
